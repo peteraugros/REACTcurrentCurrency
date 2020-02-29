@@ -1,36 +1,42 @@
-body{
-  background-color: green;
-}
-p{
+
+p {
   display: inline;
 }
 
-.title{
+.title {
   text-align: center;
   margin: 0 auto;
-  color: #1d991d;
+  color:#4bb30f;
   font-size: 10px;
+  
 }
 
-.infoForm{
+.infoForm {
   margin: 0 auto;
 }
 
-.jumbo{
+.jumbo {
   width: 100%;
+  height: 257px;
+  border: 2px solid green
 }
 
-.results-div{
+.results-div {
   height: 275px;
-  background-color:  #1d991d;
+  text-align: center;
+  background-color: rgb(225, 228, 222); 
+ 
 }
 
-.form-elements{
+.form-elements {
   margin-top: 50px;
 }
 
-.result-header{
-  background-color: #1d991d;
+.result-header {
   margin-top: 40px;
+ 
 }
 
+input[type="text"]::placeholder {  
+  text-align: center; 
+}

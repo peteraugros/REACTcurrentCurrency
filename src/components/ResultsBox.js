@@ -2,7 +2,11 @@ import React from 'react'
 
 const ResultsBox = (props) => {
     return(
-        <h1 className="result-header">This is where results go</h1>
+    <div className="result-header">
+    <h1>${props.currencyAmount} {props.currencyFrom} is worth</h1>
+    <h1>${props.finalResult} {props.currencyTo}</h1>
+    <h1>at an exchange rate of {props.currencyRate}%</h1>
+    </div>
     )
 }
 
