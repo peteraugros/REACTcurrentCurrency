@@ -1,0 +1,36 @@
+body{
+  background-color: green;
+}
+p{
+  display: inline;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto;
+  color: #1d991d;
+  font-size: 10px;
+}
+
+.infoForm{
+  margin: 0 auto;
+}
+
+.jumbo{
+  width: 100%;
+}
+
+.results-div{
+  height: 275px;
+  background-color:  #1d991d;
+}
+
+.form-elements{
+  margin-top: 50px;
+}
+
+.result-header{
+  background-color: #1d991d;
+  margin-top: 40px;
+}
+
